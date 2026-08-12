@@ -21,10 +21,10 @@ plt.ylabel('Condition Number $\kappa(t)$')
 
 
 plt.ylim(0,20)
-plt.xlim(-0.05*T,1.05*T)
-plt.xticks([0,T/4,T/2,3*T/4,T],['0','T/4','T/2','3T/4','T'])
+plt.xlim(0*T,1.05*T)
+# plt.xticks([0,T/4,T/2,3*T/4,T],['0','T/4','T/2','3T/4','T'])
 plt.grid(True)
 plt.legend()
-plt.savefig('condition_number_plot_2.png',dpi=300,bbox_inches='tight')
+plt.savefig('condition_number_plot.png',dpi=300,bbox_inches='tight') # I used this to just to save the image
 plt.show()
     
