@@ -6,7 +6,8 @@
 ## Overview
 This repository contains the assignment solutions and programming scripts for the **ESO208: Computational Methods for Engineers** course.
 
-## Directory Structure
-- **`Assignment_1/`**: Contains the solutions and code for the first assignment.
-  - `q3.py`: Python script analyzing and plotting the condition number for the given mathematical function over time.
+## Assignments & Coursework
 
+| Week / Assignment | Description | Files & Solutions |
+| :--- | :--- | :--- |
+| **Assignment 1** | Condition numbers, Error Analysis, and Mathematical Plotting | [ View Assignment 1 Folder](./Assignment_1/) |
