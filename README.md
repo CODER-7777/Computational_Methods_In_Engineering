@@ -8,6 +8,7 @@ This repository contains the assignment solutions and programming scripts for th
 
 ## Assignments & Coursework
 
-| Week / Assignment | Description | Files & Solutions |
-| :--- | :--- | :--- |
-| **Assignment 1** | Condition numbers, Error Analysis, and Mathematical Plotting | [ View Assignment 1 Folder](./Assignment_1/) |
+| Week / Assignment | Files & Solutions |
+| :--- | :--- |
+| **Assignment 1** | [ View Assignment 1 Folder](./Assignment_1/) |
+| **Assignment 2** | [ View Assignment 2 Folder](./Assignment_2/) |
