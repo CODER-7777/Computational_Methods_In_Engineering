@@ -38,7 +38,7 @@ print("\n---(e) Prediction & Interval---")
 print("Predicted_y_at_x=7:",round(y_new,4))
 print("90%_Confidence_Interval:[",round(ci_low,4),",",round(ci_high,4),"]")
 
-# --- PLOT 1: Scatter Plot ---
+
 plt.figure(figsize=(6,4))
 plt.scatter(x,res)
 plt.axhline(0,color='red',linestyle='--')
@@ -47,9 +47,9 @@ plt.xlabel("X")
 plt.ylabel("Residuals")
 plt.tight_layout()
 plt.savefig("Residuals_vs_X",dpi=300)
-plt.show() # This will pop up the first window. You have to close it for the next one to appear!
+plt.show()
 
-# --- PLOT 2: Histogram ---
+
 plt.figure(figsize=(6,4))
 plt.hist(res,bins=6,edgecolor='black')
 plt.title("Histogram of Residuals (Distribution)")
@@ -57,4 +57,4 @@ plt.xlabel("Residual Value")
 plt.ylabel("Frequency")
 plt.tight_layout()
 plt.savefig("Histogram_of_Residuals",dpi=300)
-plt.show() # This pops up after you close the first one.
+plt.show()
