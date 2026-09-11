@@ -19,12 +19,12 @@ res=y-y_p
 var_res=np.sum(res**2)/(n-2)
 r_sq=1-(np.sum(res**2)/np.sum((y-y_m)**2))
 
-print("---(a) Regression Parameters---")
+print("(a) Regression Parameters")
 print("Slope:",round(m_val,4))
 print("Intercept:",round(c_val,4))
 print("Variance_of_Residuals:",round(var_res,4))
 
-print("\n---(d) Coefficient of Determination---")
+print("\n(d) Coefficient of Determination")
 print("R_Squared:",round(r_sq,4))
 
 x_new=7.0
@@ -34,7 +34,7 @@ se_mean=np.sqrt(var_res*(1/n+((x_new-x_m)**2)/s_xx))
 ci_low=y_new-t_val*se_mean
 ci_high=y_new+t_val*se_mean
 
-print("\n---(e) Prediction & Interval---")
+print("\n(e) Prediction & Interval")
 print("Predicted_y_at_x=7:",round(y_new,4))
 print("90%_Confidence_Interval:[",round(ci_low,4),",",round(ci_high,4),"]")
 
