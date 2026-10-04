@@ -16,3 +16,4 @@ This repository contains the assignment solutions and programming scripts for th
 | **Assignment 4** | [ View Assignment 4 Folder](./Assignment_4/) |
 | **Assignment 5** | [ View Assignment 5 Folder](./Assignment_5/) |
 | **Assignment 6** | [ View Assignment 6 Folder](./Assignment_6/) |
+| **Assignment 7** | [ View Assignment 7 Folder](./Assignment_7/) |
