@@ -17,3 +17,5 @@ This repository contains the assignment solutions and programming scripts for th
 | **Assignment 5** | [ View Assignment 5 Folder](./Assignment_5/) |
 | **Assignment 6** | [ View Assignment 6 Folder](./Assignment_6/) |
 | **Assignment 7** | [ View Assignment 7 Folder](./Assignment_7/) |
+| **Assignment 8** | [ View Assignment 8 Folder](./Assignment_8/) |
+| **Assignment 9** | [ View Assignment 9 Folder](./Assignment_9/) |
